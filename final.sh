@@ -1,6 +1,8 @@
 #!/bin/bash 
 #Using bourne again shell language
 
+#Program: Script uses prompt for user input
+
 echo "Please enter your name" #Writes prompt for user to enter name
 read name                     #Prompts user for name will read and display input
 echo "Hello, $name."          #Writes "Hello and "user name" from variable $name that user input
