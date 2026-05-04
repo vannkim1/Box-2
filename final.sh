@@ -1,10 +1,6 @@
 #!/bin/bash 
 #Using bourne again shell language
 
-#Student: Vanna Smith
-#Program: Final Assignment: Script that uses prompts for user input
-#Date: December 19, 2022
-
 echo "Please enter your name" #Writes prompt for user to enter name
 read name                     #Prompts user for name will read and display input
 echo "Hello, $name."          #Writes "Hello and "user name" from variable $name that user input
